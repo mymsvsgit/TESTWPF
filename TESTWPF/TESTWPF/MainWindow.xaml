@@ -5,8 +5,26 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:TESTWPF"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
+        Title="SRVMON" Height="480" Width="640">
     <Grid>
-        
+        <TabControl x:Name="tabControl">
+            <TabItem Header="Создать задание">
+                <Grid Background="#FFE5E5E5">
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="388*"/>
+                        <RowDefinition Height="27*"/>
+                        <RowDefinition Height="6*"/>
+                    </Grid.RowDefinitions>
+                    <Grid HorizontalAlignment="Left" Height="421.04" VerticalAlignment="Top" Width="626" Grid.RowSpan="3"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Настройки">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+            <TabItem Header="Активные задания">
+                <Grid Background="#FFE5E5E5"/>
+            </TabItem>
+        </TabControl>
+
     </Grid>
 </Window>
