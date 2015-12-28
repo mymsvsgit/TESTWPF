@@ -22,7 +22,14 @@
                 <Grid Background="#FFE5E5E5"/>
             </TabItem>
             <TabItem Header="Активные задания">
-                <Grid Background="#FFE5E5E5"/>
+                <Grid Background="#FFE5E5E5">
+                    <Grid HorizontalAlignment="Left" Height="421.04" VerticalAlignment="Top" Width="626">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="220*"/>
+                            <ColumnDefinition Width="93*"/>
+                        </Grid.ColumnDefinitions>
+                    </Grid>
+                </Grid>
             </TabItem>
         </TabControl>
 
